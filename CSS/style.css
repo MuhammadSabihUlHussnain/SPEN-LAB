@@ -523,6 +523,43 @@ footer {
   margin-right: 2rem;
 }
 
+/* Match research tab inner margins on service sections */
+.service-page .info-card {
+  padding: 1.8rem;
+}
+
+/* Make service cards wider by widening the page container */
+.service-page main {
+  max-width: 1320px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+/* Keep service text bounded inside each card */
+.service-page .info-card {
+  overflow: hidden;
+}
+
+.service-page .info-card h2,
+.service-page .info-card p,
+.service-page .info-card li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Match service card spacing/bounding for Teaching project highlights */
+.teaching-page .teaching-project-highlights {
+  padding: 1.8rem;
+  overflow: hidden;
+}
+
+.teaching-page .teaching-project-highlights h2,
+.teaching-page .teaching-project-highlights p,
+.teaching-page .teaching-project-highlights li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .team-page .team-cards {
   grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
   justify-content: center;
@@ -532,6 +569,19 @@ footer {
   width: 320px;
   max-width: 100%;
   margin: 0 auto;
+}
+
+/* Match spacing/bounding updates for team student cards */
+.team-page .team-card.detailed-profile .profile-info {
+  padding: 1.8rem;
+  overflow: hidden;
+}
+
+.team-page .team-card.detailed-profile .profile-info h3,
+.team-page .team-card.detailed-profile .profile-info p,
+.team-page .team-card.detailed-profile .profile-info li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* ---------------- Responsive ---------------- */
@@ -884,7 +934,7 @@ footer {
   }
 
   body .left-logo {
-    height: clamp(36px, 14vw, 84px) !important;
+    height: clamp(31px, 10.8vw, 68px) !important;
     width: auto !important;
   }
 
@@ -908,7 +958,7 @@ footer {
   }
 
   body .left-logo {
-    height: clamp(72px, 10vw, 190px) !important;
+    height: clamp(52px, 6.75vw, 124px) !important;
     width: auto !important;
   }
 
