@@ -511,7 +511,23 @@ footer {
   overflow-wrap: anywhere;
 }
 
+.research-page #conf-tab,
+.research-page #books-tab {
+  width: 100% !important;
+  margin-left: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
 .research-page #journal-tab ol {
+  margin: 0 2rem;
+  padding-left: 1.5rem;
+}
+
+.research-page #conf-tab ol,
+.research-page #books-tab ol {
   margin: 0 2rem;
   padding-left: 1.5rem;
 }
@@ -519,6 +535,16 @@ footer {
 .research-page #journal-tab h3,
 .research-page #journal-tab > p,
 .research-page #journal-tab > div {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.research-page #conf-tab h3,
+.research-page #conf-tab > p,
+.research-page #conf-tab > div,
+.research-page #books-tab h3,
+.research-page #books-tab > p,
+.research-page #books-tab > div {
   margin-left: 2rem;
   margin-right: 2rem;
 }
