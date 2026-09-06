@@ -565,6 +565,32 @@ footer {
   padding-left: 1.5rem;
 }
 
+
+.research-page .publication-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.1rem;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.research-page .student-marker {
+  display: inline-block;
+  min-width: 1.35em;
+  margin-right: 0.18em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.research-page .student-marker.graduate {
+  color: #7a1212;
+}
+
+.research-page .student-marker.undergraduate {
+  color: #245c2a;
+}
+
 .research-page #conf-tab ol,
 .research-page #books-tab ol {
   margin: 0 2rem;
